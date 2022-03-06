@@ -14,6 +14,7 @@
 		1CB945C527D520FA003729A6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB945C427D520FA003729A6 /* MainView.swift */; };
 		1CB945C727D5230A003729A6 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB945C627D5230A003729A6 /* AwardsView.swift */; };
 		1CB945C927D52461003729A6 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB945C827D52461003729A6 /* GradientRectangles.swift */; };
+		1CB945CB27D52570003729A6 /* GradientCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB945CA27D52570003729A6 /* GradientCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1CB945C427D520FA003729A6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		1CB945C627D5230A003729A6 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		1CB945C827D52461003729A6 /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		1CB945CA27D52570003729A6 /* GradientCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				1CB945C427D520FA003729A6 /* MainView.swift */,
 				1CB945C627D5230A003729A6 /* AwardsView.swift */,
 				1CB945C827D52461003729A6 /* GradientRectangles.swift */,
+				1CB945CA27D52570003729A6 /* GradientCircle.swift */,
 				1CB945BA27D52001003729A6 /* Assets.xcassets */,
 				1CB945BC27D52001003729A6 /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				1CB945B927D51FFF003729A6 /* StarterView.swift in Sources */,
 				1CB945C527D520FA003729A6 /* MainView.swift in Sources */,
 				1CB945B727D51FFF003729A6 /* AwardsCollectionAppApp.swift in Sources */,
+				1CB945CB27D52570003729A6 /* GradientCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
