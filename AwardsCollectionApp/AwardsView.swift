@@ -9,7 +9,21 @@ import SwiftUI
 
 struct AwardsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                ScrollView {
+                    GradientRectangles()
+                        .frame(width: 250, height: 250)
+                    PathView()
+                        .frame(width: 250, height: 250)
+                    CurvesView()
+                        .frame(width: 250, height: 250)
+                    GradientCircle()
+                        .frame(width: 300, height: 300)
+                }
+            }
+            .navigationBarTitle("Awards")
+        }
     }
 }
 
