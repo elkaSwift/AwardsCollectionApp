@@ -21,6 +21,7 @@ struct MainView: View {
                         .animation(.default)
                 }
             }
+            Spacer()
         }
         .font(.headline)
         .padding()
