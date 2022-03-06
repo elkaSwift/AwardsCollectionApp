@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct MainView: View {
+    @State private var showAward = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Button(action: { showAward.toggle() }) {
+                HStack {
+                    Text(showAward ? "Hide Award" : "Show Award")
+                    Spacer()
+                    Image(systemName: "chevron.up.square")
+                        .rotationEffect(.degrees(showAward ? 0 : -180))
+                        .animation(.default)
+                }
+            }
+        }
+        .font(.headline)
+        .padding()
     }
 }
 
