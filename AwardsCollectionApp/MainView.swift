@@ -22,6 +22,17 @@ struct MainView: View {
                 }
             }
             Spacer()
+            GradientCircle()
+                .frame(width: 300, height: 300)
+                .opacity(showAward ? 1 : 0)
+                .animation(
+                    .interpolatingSpring(
+                        mass: 1,
+                        stiffness: 100,
+                        damping: 10,
+                        initialVelocity: 0)
+                )
+            Spacer()
         }
         .font(.headline)
         .padding()
